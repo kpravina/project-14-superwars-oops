@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-column-gap: 1em;
+    margin-top: 5% ;
 }
 
 /* Team */
@@ -9,10 +10,14 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    border-color: aliceblue;
+    border: shadow 1px;
 }
 
 .team#heroes {
     justify-content: flex-end;
+    /* flex-direction:column; */
+    
 }
 
 /* Player cards */
@@ -46,4 +51,5 @@
 .footer{
     margin-left: 80px;
     font-size: 18px;
+    margin-top: 6%;
 }
